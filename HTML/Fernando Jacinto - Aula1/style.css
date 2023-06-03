@@ -1,0 +1,47 @@
+:root{
+    --text-color-primary: #0000FF;
+    --text-color-secondary: #F7951F;
+    --text-color: grey;
+    --bg-color-default: #FDBF79;
+    --textblack: #000000;
+}
+
+body {
+    background-color: var(--bg-color-default);
+}
+
+.black{
+    color: var(--textblack);
+}
+p{
+    color: var(--text-color-primary);
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+h1 { 
+    font-size: 48px;
+    color: var(--text-color-primary);
+}
+
+.destaque {
+    color: #7b4200;
+}
+span.destaque {
+    color: #00d15b;
+}
+
+h2 { 
+    font-size: 48px;
+    color: #F7951F;
+    font-size: 24px;
+}
+.latin{
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.default {
+    color: var(--text-color)
+}

@@ -1,0 +1,28 @@
+h1 {
+    background-color: navajowhite;
+    color:brown;
+    border: 2px solid rgb(32, 92, 111);
+    padding: 10px;
+}
+
+p{
+    background-color: navajowhite;
+    color:brown;
+    border: 2px solid rgb(32, 92, 111);
+    padding: 10px;
+}
+
+span{
+    background-color: navajowhite;
+    color:brown;
+    border: 2px solid rgb(32, 92, 111);
+    padding: 10px;
+    border-radius: 50px;
+    margin: 7px;
+}
+
+span:hover{
+    color: aqua;
+    background-color: blue;
+    transition-duration: 0.5s;
+}

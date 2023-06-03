@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*IDs*/
+#inicio{
+	background: #BE5DFF;
+}
+
+#meio{
+	background: #F0696C;
+	
+}
+
+#rodape{
+	background: #1982FF;
+	
+}
+
+/*Class*/
+.conteudo{
+	background:#F0696C;
+}
+
+/*Pseudo-class*/
+a:hover{
+	color: #FC0D11;
+	
+}
+
+
+/*Seletores*/
+h1, p{
+	color:#F9E7A7;
+	}
+
+/*selecionando o p que tem o pai como ID rodape*/
+#rodape p{
+	font-size: 40px;
+	color: #FFFFFF;
+}
+
+/*font*/
+ul{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-style: normal;
+	}
+
+/*Altura da linha*/
+p{
+	font-size: 16px;
+	line-height: 30px;
+}
+
+
+/*text-align - transform*/
+
+.conteudo h1{
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+
+/*text-decoration - para colocar ou remover linha em baixo do texto
+text-shadow para colocar sombra no texto*/
+a{
+	color: #BE5DFF;
+	text-decoration: none;
+	text-shadow: 2px 2px 1px #CCCCCC;
+	
+}
+
+/*white-space, word e letter*/
+.texto_quebrado{
+	/*white-space:pre-wrap;
+	word-spacing: 0px;*/
+	letter-spacing: 40px;
+}
+
+/*list-style-image e position*/
+li{
+	list-style: none;
+	
+}
+
+/*largura e altura*/
+#inicio{
+	width: 1000px;
+}
+
+img{
+	width: 70%;
+}
+#rodape{
+	height: 400px;
+	padding: 40px;
+	margin: 40px;
+}
+
+/*Largura máxima usamos para o responsivo*/
+#meio{
+	max-width: 800px;
+}
+
+/*borda*/
+.borda{
+	font-size: 30px;
+	border: 6px solid #3CD823;
+	border-radius: 10px;
+	border-style: dashed;
+}
+

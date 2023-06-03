@@ -1,0 +1,16 @@
+<p></p> - Parágrafo
+<hr></hr> - Quebra linha
+<ul></ul> - Lista ordenada
+<li></li> - Lista
+li*nº - Criar várias listas
+li*nº>a - Criar listas com href
+___________________________________________________
+
+list-style: none; - Tira bolinhas da lista
+text-decoration: none; - Tira o sublinhado
+
+font-size: 20px;
+color: rgb(0, 0, 0);
+text-decoration: none;
+text-shadow: 0px 0px 0px #000000;
+___________________________________________________

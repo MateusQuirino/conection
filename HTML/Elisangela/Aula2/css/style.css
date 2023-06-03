@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+}
+
+h1{
+    color: rgb(0, 145, 255);
+    background-color: #000000;
+    text-align: center;
+    margin: 0px;
+    font-family: "Bitcheese";
+    font-size: 100px;
+    transition-duration: 0.7s;
+}
+
+h1:hover{
+    color: rgb(147, 208, 255);
+}
+
+ul{
+    position: relative;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+    display: inline;
+
+}
+
+
+a{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-shadow: 3px 3px 5px #000000;
+    padding: 15px;
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+    transition-duration: 0.2s;
+}
+
+img{
+    width: 70%;
+    border-radius: 4px;
+    padding: 10px 0px 0px 300px;
+}
+
+#inicio{
+    background-color : #ff7700;
+}
+
+p{
+    font-size: 16px;
+    line-height: 25px;
+}

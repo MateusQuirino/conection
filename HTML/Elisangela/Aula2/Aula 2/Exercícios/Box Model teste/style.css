@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Elementos Bloco por padrão*/
+h2{
+	background: #E49293;
+	padding: 10px;
+	margin: 20px;
+	border: 2px solid #2559E5;
+}
+
+p{
+	background:#41AC57;
+	padding: 30px;
+	margin: 50px;
+	border: 2px solid #2559E5;
+}
+
+
+/*Elementos Inline por padrão*/
+img{
+	border: 2px solid #6AD100;
+
+}
+
+a{
+	border: 2px solid #FF008E;
+	/*Como é um elemento inline não conseguimos alterar a largura e altura*/
+	width: 200px;
+	height: 200px;
+	padding: 30px;
+	margin: 20px;
+	/*não pega margin top, pois, não tem comportamento de bloco*/
+	margin-top: 50px;
+}
+
+/*Display inline-block podemos definir width e height, pois, tem comportameto de bloco dentro da linha*/
+span{
+	background: #D0FF00;
+	border: 2px solid #09318C;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	}
+

@@ -1,0 +1,5 @@
+Material Icon Theme
+Svg Preview
+Live Server
+HTML/CSS/JavaScript Snippets
+Tabnine AI Autocomplete
